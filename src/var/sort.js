@@ -1,9 +1,3 @@
-define( [
-	"./arr"
-], function( arr ) {
+import arr from "./arr.js";
 
-"use strict";
-
-return arr.sort;
-
-} );
+export default arr.sort;
